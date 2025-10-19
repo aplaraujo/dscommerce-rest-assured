@@ -26,7 +26,7 @@ public class ProductControllerRA {
     private Map<String, Object> postProductInstance;
 
     @BeforeEach
-    public void setUp() throws Exception {
+    public void setUp()  {
         baseURI = "http://localhost:8080";
 
         clientUsername = "maria@gmail.com";
